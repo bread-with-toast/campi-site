@@ -1,0 +1,39 @@
+.card-new {
+    box-shadow: 10px 10px 30px rgb(0, 0, 0);
+    padding: 20px;
+}
+
+a {
+    text-decoration: none;
+    color: #e9e9e9
+}
+
+body {
+    background-color: rgb(31, 31, 31);
+    color: white;
+}
+
+.main {
+    color: #B2B1CF
+}
+
+button {
+    background-color: #52508e
+}
+
+.purple {
+    color: #8482c1
+}
+
+a:hover {
+    color: #8482c1
+}
+
+@font-face {
+    font-family: "font";
+    src: url("SourceSansPro-Bold.ttf");
+}
+
+body, h1, a, h2, p, button, h3, div {
+    font-family: "font";
+}
